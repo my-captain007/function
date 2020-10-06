@@ -1,0 +1,7 @@
+a=input("enter text:");n=0
+for i in a:
+ n=0
+ for j in a:
+  if i==j:
+   n+=1
+ print(i,"=",n)
